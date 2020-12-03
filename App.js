@@ -1,7 +1,5 @@
-import React from 'react';
-import './App.css';
-import { Component } from 'react';
-export default class App extends React.Component {
+import React,{Component} from 'react';
+export default class App extends Component{
    constructor(props){
       super(props)
       this.state ={
@@ -22,5 +20,5 @@ export default class App extends React.Component {
               <button onClick={this.handlerClick.bind(this)}>点击 </button>
           </div>
       )
+ }
 }
-
